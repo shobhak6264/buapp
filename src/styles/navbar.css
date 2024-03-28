@@ -1,0 +1,13 @@
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-right: 20px;
+}

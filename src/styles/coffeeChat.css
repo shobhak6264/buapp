@@ -1,0 +1,38 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.searchBar{
+    display: flex;
+    flex-direction: row;
+}
+
+.searchBarInput{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.profileList{
+    display: flex;
+    padding: 20px;
+    background: #f3f3f3;
+    width: max-content;
+    border-radius: 10px;
+}
+
+.profileItem{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.profileName{
+    text-align: center;
+    font-size: larger;
+}

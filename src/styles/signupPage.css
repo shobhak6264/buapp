@@ -1,0 +1,63 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    padding: 20px;
+    height: 80vh;
+    font-size: x-large;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 30vh; */
+    gap: 10px;
+    align-self: center;
+    width: max-content;
+}
+
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: center;
+    width: max-content;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+    background: ghostwhite;
+    padding: 40px;
+}
+
+.inputField{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.inputButton{
+    background-color: green;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+input{
+    border-radius: 10px;
+    font-size: xx-large;
+}
+
+button{
+    border-radius: 10px;
+    background-color: green;
+    color: #f3f3f3;
+    font-size: xx-large;
+}
+
+span{
+    margin-top: 20px;
+    cursor: pointer;
+    color: blue;
+}
